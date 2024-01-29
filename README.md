@@ -15,7 +15,7 @@ This worksheet consists of Jupyter notebooks, some `.csv` files as temporary dat
 - [suppliers.ipynb](https://github.com/ShockleyJE/appliance-purchasing-with-python/blob/main/suppliers.ipynb) Input is your product requirements & distance, and output is effectively the '___ near me' sidebar results from google maps business search. However, the data is saved as csv and is easily able to be 1-click imported to google sheets where you can easily coordinate progress and perform ad-hoc filters with a partner. 
 
 
-- [inventory_single.ipynb] Input is a single website url from the `suppliers` dataframe. The notebook will to crawl the website and populate a dataframe with site routes where inventory location may be stored/ updated
+- [inventory_single.ipynb](https://github.com/ShockleyJE/appliance-purchasing-with-python/blob/main/inventory_single.ipynb) Input is a single website url from the `suppliers` dataframe. The notebook will to crawl the website and populate a dataframe with site routes where inventory location may be stored/ updated
 
 - [inventory_full.ipynb](https://github.com/ShockleyJE/appliance-purchasing-with-python/blob/main/inventory_full.ipynb) Input is the full `suppliers` dataframe. The notebook will crawl all `suppliers` in the source dataframe. The output sheet contains columns [`monitor`, `acknowledged`] which represent whether the page has been reviewed manually and whether the row has had the default classification (that the link is not worth monitoring) overridden
 
